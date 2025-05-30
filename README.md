@@ -32,7 +32,7 @@ Flutter ile geliştirilen bu mobil uygulama, Harry Potter evreninden karakterler
 Projeyi cihazınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
 ```bash
-git clone https://github.com/kullaniciadi/harry-potter-app.git
-cd harry-potter-app
+git clone https://github.com/MertKocak/harrypotter.git
+cd harrypotter
 flutter pub get
 flutter run
