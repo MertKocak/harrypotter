@@ -38,14 +38,17 @@ class HomePage extends ConsumerWidget {
             errorMessage = err.toString();
           }
           return Center(
-            child: Text(
-              errorMessage,
-              style: GoogleFonts.cardo(
-                color: AppColors.primary,
-                fontSize: 18,
-                fontWeight: FontWeight.w700,
+            child: Padding(
+              padding: const EdgeInsets.all(16),
+              child: Text(
+                errorMessage,
+                style: GoogleFonts.poppins(
+                  color: AppColors.textSecondary,
+                  fontSize: 16,
+                  fontWeight: FontWeight.w500,
+                ),
+                textAlign: TextAlign.center,
               ),
-              textAlign: TextAlign.center,
             ),
           );
         },
