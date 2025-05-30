@@ -1,19 +1,38 @@
-Bu Flutter uygulaması, Harry Potter evrenindeki karakterleri bir açık API üzerinden alır, liste halinde gösterir ve her karakterin detay bilgilerini kullanıcıya sunar.
-<br>
-🚀 Özellikler
-API üzerinden canlı veri çekme
-Riverpod ile state management
-Detaylı karakter sayfaları
-Responsive tasarım
-Hata yönetimi ve loading ekranı
-<br>
-🧱 Kullanılan Teknolojiler
-Flutter
-Riverpod
-Google Fonts
-Material Design
-Responsive UI
-<br>
-Uygulama şu API üzerinden karakter verilerini alır:
-🔗 https://hp-api.onrender.com/api/characters
-<br>
+# 🧙‍♂️ Harry Potter Character App
+
+Flutter ile geliştirilen bu mobil uygulama, Harry Potter evreninden karakterleri listeleyen ve detaylarını görüntülemenizi sağlayan bir uygulamadır. API üzerinden alınan veriler şık bir tasarımla sunulmaktadır.
+
+---
+
+## 📱 Özellikler
+
+- API'den Harry Potter karakterlerini çekme (https://hp-api.onrender.com/api/characters)
+- Karakter kartları halinde listeleme
+- Detay sayfasında yer alan karakter bilgileri:
+  - İsim
+  - Resim
+  - Aktör ismi
+  - House
+  - Tür, cinsiyet, soy
+  - Saç ve göz rengi
+  - Yaşayıp yaşamadığı bilgisi
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+- Flutter
+- Riverpod (state management)
+- Freezed
+
+---
+
+## 🔧 Kurulum
+
+Projeyi cihazınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
+```bash
+git clone https://github.com/kullaniciadi/harry-potter-app.git
+cd harry-potter-app
+flutter pub get
+flutter run
